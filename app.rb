@@ -22,9 +22,6 @@ module FormsLab
        Ship.new(details)
       end
       
-      params[:pirate][:ships].each do |details|
-       Ship.new(details)
-      end
     
       @ships = Ship.all
     
